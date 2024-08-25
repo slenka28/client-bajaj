@@ -21,7 +21,7 @@ function App() {
     if (validateJson(jsonData)) {
       setError('');
       try {
-        const res = await fetch('https://task-1941.onrender.com/bfhl', {
+        const res = await fetch('https://bajaj-voc2.onrender.com/bfhl', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: jsonData,
